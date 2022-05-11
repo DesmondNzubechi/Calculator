@@ -1,0 +1,111 @@
+body{
+	background:/* #eae6ed*/#cccfe8;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	font-family: 'poppins', sans-serif;
+
+}
+#Calculator{
+	
+	background: none;
+	box-shadow: 5px 5px 5px gray, -2px -2px 2px #fff;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+	margin:30px;
+	border-radius: 30px;
+
+}
+#display{
+	border: none;
+	background: none;
+	margin: 20px;
+	height: 60px;
+	box-sizing: border-box;
+	outline:none;
+	text-align: center;
+	color: darkblue;
+	justify-content: center;
+	box-shadow: inset 2px 2px 4px gray, inset -2px -2px 4px #fff;
+	padding: 25px;
+	width: 90%;
+	border-radius: 20px;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 30px;
+
+
+}
+#flex{
+margin: 5px;
+width: 100%;
+}
+#creat h4{
+	
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+#flex button{
+	padding: 10px;
+	margin: 5px;
+	width:20%;
+	font-weight: 700;
+	background: none;
+	border: none;
+	font-size: 20px;
+	box-shadow: 2px 2px 4px gray, -2px -2px 4px #fff;
+	border-radius: 50px;
+}
+#flex button:hover{
+	background:#d3e0d8;
+	transition: .5s;
+	transform: translate3d(0px, -2px, 0px);
+	box-shadow: 2px 2px 4px gray, -2px -2px 4px white;
+
+}
+#inventor:hover{
+	background:#d3e0d8;
+	transition: .5s;
+	transform: translate3d(0px, -2px, 0px);
+	box-shadow: 2px 2px 4px gray, -2px -2px 4px white;
+
+}
+#flex #equal{
+	background:#b1cae3 ;
+	box-shadow: 2px 2px 4px gray, -2px -2px 4px white;
+}
+#flex #del{
+
+	background:#edc7e1 ;
+	box-shadow: 2px 2px 4px gray, -2px -2px 4px white;
+
+}
+#flex #back{
+
+	background:#ecf0cc ;
+	box-shadow: 2px 2px 4px gray, -2px -2px 4px white;
+
+}
+#inventor{
+	margin:10px 20px ;
+	border: none;
+	width: 90%;
+	border-radius: 10px;
+	padding: 10px;
+	background: #c1dbc8;
+	
+	box-shadow: 2px 2px 4px gray, -2px -2px 4px white;
+
+}
+#inventor h2{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-style: italic;
+	color: darkblue;
+	font-weight: 600;
+	color: ;
+	font-family: 'poppins', sans-serif;
+}

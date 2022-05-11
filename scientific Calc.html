@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+	<meta charset="utf-8">
+	<title>Calculator</title>
+</head>
+<body>
+<div id="Calculator">
+	<!--<div id="creat">
+		<h4>Nzubechukwu Scientific Calculator</h4>
+	</div>-->
+	<div>
+		<input type="text" id="display" name="text"Calculator>
+	</div>
+		<div id="flex">
+			<button id="one">1</button>
+			<button id="two">2</button>
+			<button id="three">3</button>
+			<button id="four">4</button>
+		</div>
+		<div id="flex">
+			<button id="five">5</button>
+			<button id="six">6</button>
+			<button id="seven">7</button>
+			<button id="eight">8</button>
+		</div>
+		<div id="flex">
+			<button id="nine">9</button>
+			<button id="zero">0</button>
+			<button id="mult">*</button>
+			<button id="div">/</button>
+		</div>
+		<div id="flex">
+			<button id="sub">-</button>
+			<button id="add">+</button>
+			<button id="cos">cos</button>
+			<button id="sin">sin</button>
+			
+		</div>
+		<div id="flex">
+			<button id="tan">tan</button>
+			<button id="expo">Exp</button>
+			<button id="square">x<sup>2</sup></button>
+			<button id="log">log</button>
+			
+		</div>
+		<div id="flex">
+			<button id="sqrt">√</button>
+			<button id="pi">𝝿</button>
+			<button id="brac1">(</button>
+			<button id="brac2">)</button>
+			
+		</div>
+		<div id="flex">
+<button id="point">.</button>
+<button id="equal">=</button>
+<button id="del">Del</button>
+<button id="back">Back</button>
+</div>
+<button id="inventor"><h2>Invented By?</h2></button>
+</div>
+<script type="text/javascript">
+zero.onclick=function () {
+	document.getElementById('display').value += '0';
+}
+one.onclick=function () {
+	document.getElementById('display').value += '1';
+}
+two.onclick=function () {
+	document.getElementById('display').value += '2';
+}
+three.onclick=function () {
+	document.getElementById('display').value += '3';
+}
+four.onclick=function () {
+	document.getElementById('display').value += '4';
+}
+five.onclick=function () {
+	document.getElementById('display').value += '5';
+}
+six.onclick=function () {
+	document.getElementById('display').value += '6';
+}
+seven.onclick=function () {
+	document.getElementById('display').value += '7';
+}
+eight.onclick=function () {
+	document.getElementById('display').value += '8';
+}
+nine.onclick=function () {
+	document.getElementById('display').value += '9';
+}
+add.onclick=function () {
+	document.getElementById('display').value += '+';
+}
+sub.onclick=function () {
+	document.getElementById('display').value += '-'; 
+}
+mult.onclick=function () {
+	document.getElementById('display').value += '*';
+}
+div.onclick=function () {
+	document.getElementById('display').value += '/' ;
+}
+point.onclick=function () {
+	document.getElementById('display').value += '.' ;
+}
+brac1.onclick=function () {
+	document.getElementById('display').value += '(' ;
+}
+brac2.onclick=function () {
+	document.getElementById('display').value += ')' ;
+}
+equal.onclick=function () {
+	document.getElementById('display').value = eval(display.value) ;
+}
+cos.onclick=function () {
+	document.getElementById('display').value = Math.cos(display.value) ;
+}
+tan.onclick=function () {
+	document.getElementById('display').value = Math.tan(display.value) ;
+
+}
+log.onclick=function () {
+	document.getElementById('display').value = Math.log(display.value);
+
+}
+
+sin.onclick=function () {
+	document.getElementById('display').value = Math.sin() ;
+
+	 
+ }
+
+expo.onclick=function () {
+	document.getElementById('display').value = Math.exp(display.value) ;
+}
+
+square.onclick=function () {
+	document.getElementById('display').value = Math.pow(display.value, 2) ;
+}
+del.onclick=function () {
+	document.getElementById('display').value = '';
+}
+
+sqrt.onclick=function () {
+	document.getElementById('display').value = Math.sqrt(display.value);
+}
+
+	back.onclick=function () {
+	document.getElementById('display').value -= display.value;
+
+}
+pi.onclick=function () {
+	document.getElementById('display').value += Math.PI;
+}
+
+inventor.onclick=function () {
+	document.getElementById('display').value = 'Nzubechukwu(B2R)' ;
+} 
+
+var a = Math.cos(8);
+console.log(a)
+</script>
+</body>
+</html>
